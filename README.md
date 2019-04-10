@@ -56,3 +56,11 @@ show databases
 use telegraf
 select * from cpu where time > now() - 30s
 ```
+Images sizes:
+```
+docker image ls
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+grafana/grafana     latest              a8b0c77b00b7        25 hours ago        245MB
+influxdb            latest              4ca83dc311a6        13 days ago         239MB
+telegraf            latest              2133a07c3185        2 weeks ago         244MB
+```
