@@ -19,7 +19,6 @@ Run your stack:
 docker-compose config
 docker-compose pull
 docker-compose up -d
-
 ```
 
 Show me the logs:
