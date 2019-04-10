@@ -6,7 +6,7 @@
 Get the stack (only once):
 
 ```
-git clone https://github.com/nicolargo/docker-influxdb-grafana.git
+git clone https://github.com/superadmin88/docker-influxdb-telegraf-grafana
 cd docker-influxdb-grafana
 docker pull grafana/grafana
 docker pull influxdb
@@ -16,6 +16,8 @@ docker pull telegraf
 Run your stack:
 
 ```
+docker-compose config
+docker-compose pull
 docker-compose up -d
 
 ```
