@@ -48,3 +48,11 @@ If you want to run Telegraf, edit the telegraf.conf to yours needs and:
 ```
 docker exec telegraf telegraf
 ```
+Testing telegraf at influxdb
+```
+docker exec -it influxdb bash
+influx
+show databases
+use telegraf
+select * from cpu where time > now() - 30s
+```
